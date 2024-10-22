@@ -1,0 +1,63 @@
+html,
+body {
+    color: #161616;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Mono", monospace;
+  background-color: rgb(255, 255, 255);
+}
+a{
+    color: rgb(168, 19, 19);
+}
+#titre{
+    text-transform:uppercase;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+header{
+
+    margin-bottom: 50px;
+}
+h1{
+    line-height: 1;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+#effet {
+    text-shadow: blue 0px -4px, cyan 0px -8px, red 0px 4px,yellow 0px 8px;
+}
+
+h2{
+    font-weight: 1000;
+    font-size: 35px;
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 600;
+}
+div{
+    text-align: center;
+    background-color:rgb(69, 69, 69);
+    
+}
+
+#rouge{
+    display: inline;
+    color: red;
+
+}
+#avis{
+    font-weight: 100;
+
+}
+footer{
+    text-align: center;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    margin-bottom: -40px;
+
+
+}

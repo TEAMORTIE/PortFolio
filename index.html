@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lobster&family=Oxanium:wght@200..800&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
-      rel="stylesheet" 
+      rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,9 +22,10 @@
       href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <script src="Script.js" defer></script>
+
     <link rel="stylesheet" href="style.css" />
   </head>
-
 
   <body>
     <header>
@@ -38,7 +39,7 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="section" id="section1">
         <h1 class="titre">
           Kévin Bulté, <br />
           Developpeur Web
@@ -46,76 +47,117 @@
 
         <h2>Passioné par le code et la technologie</h2>
         <p class="paragraphe">
-          Bienvenue sur mon portfolio en ligne créé par mes soins. Vous découvrirez ici qui je suis, mes projets, mes compétences et mes passions en tant que développeur.
+          Bienvenue sur mon portfolio en ligne créé par mes soins. Vous
+          découvrirez ici qui je suis, mes projets, mes compétences et mes
+          passions en tant que développeur.
         </p>
         <div id="bouton">
-          <button onclick=window.location.href="#contact">En Savoir plus</button >
+          <button onclick="window.location.href='#profil';">
+            En Savoir plus
+          </button>
         </div>
       </section>
-      <section>
+      <section class="section" id="section2">
         <h3>Mes Projets</h3>
         <div id="projets" class="projets">
-          <img src="image/Projet1.png" alt="projet 1">
-          <img src="image/Projet2.png" alt="projet 2">
-          <img src="image/Projet3.png" alt="projet 3">
-          <img src="image/Projet4.png" alt="projet 4">
-          <img src="image/Projet1.png" alt="projet 1">
-          <img src="image/Projet2.png" alt="projet 2">
-          <img src="image/Projet3.png" alt="projet 3">
-          <img src="image/Projet4.png" alt="projet 4">
-      </div>
+          <img
+            onclick="window.location.href='pages/mini projet 2/menu.html';"
+            src="image/Projet1.png"
+            alt="projet 1"
+          />
+          <img
+            onclick="window.location.href='pages/mini projet/index.html';"
+            src="image/Projet2.png"
+            alt="projet 2"
+          />
+          <img
+            onclick="window.location.href='pages/exercices/1/exercices.html';"
+            src="image/Projet3.png"
+            alt="projet 3"
+          />
+          <img
+            onclick="window.location.href='Contact.html';"
+            src="image/Projet4.png"
+            alt="projet 4"
+          />
+          <img
+            onclick="window.location.href='pages/mini projet 2/menu.html';"
+            src="image/Projet1.png"
+            alt="projet 1"
+          />
+          <img
+            onclick="window.location.href='pages/mini projet/index.html';"
+            src="image/Projet2.png"
+            alt="projet 2"
+          />
+          <img
+            onclick="window.location.href='pages/exercices/1/exercices.html';"
+            src="image/Projet3.png"
+            alt="projet 3"
+          />
+          <img
+            onclick="window.location.href='contact.html';"
+            src="image/Projet4.png"
+            alt="projet 4"
+          />
+        </div>
       </section>
-      <section class="propos">
+      <section class="propos section" id="section3">
         <h2>à propos de moi</h2>
         <div>
-        <div>
-        <img id="profil" src="Nouveau dossier/Photoprofil.jpg" alt="photo de profil">
-      </div>
-      <div id="je">
-      <p>Je suis un étudiant en développement web et web mobile en première année à l'école Need For School.
-         Je suis passionné de la technologie et du développement et en tant que passionné,
-          je m'efforce toujours de trouver des solutions créatives aux défis du développement
-          <br>
-          <br>
-          Compétences Principales: 
-        </p>
-        <ul>
-          <li>
-            Développement Front-End (HTML5, CSS)
-          </li>
-          <li>
-            Version Control (Git/Github)
-          </li>
-        </ul>
-          
+          <div>
+            <img
+              id="profil"
+              src="image/Photoprofil.jpg"
+              alt="photo de profil"
+            />
           </div>
-    </div>
-    <div  class="Competences">
-      <h2>Compétences</h2>
+          <div id="je">
+            <p>
+              Je suis un étudiant en développement web et web mobile en première
+              année à l'école Need For School. Je suis passionné de la
+              technologie et du développement et en tant que passionné, je
+              m'efforce toujours de trouver des solutions créatives aux défis du
+              développement
+              <br />
+              <br />
+              Compétences Principales:
+            </p>
+            <ul>
+              <li>Développement Front-End (HTML5, CSS)</li>
+              <li>Version Control (Git/Github)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="Competences">
+          <h2>Compétences</h2>
 
-      <div id="imgcomp">
-        <div>
-        <img src="image\html.png" alt="">
-        <img src="image\css-3.png" alt="">
-      </div>
-      <div>
-        <h4 id="HTML">HTML</h4>
-        <h4 id="CSS">CSS</h4>
-        
-        
-      </div>
-      </div>
-    </div>
-  </section>
+          <div id="imgcomp">
+            <div>
+              <img src="image\html.png" alt="" />
+              <img src="image\css-3.png" alt="" />
+            </div>
+            <div>
+              <h4 id="HTML">HTML</h4>
+              <h4 id="CSS">CSS</h4>
+            </div>
+          </div>
+        </div>
+      </section class="section" id="section4" >
       <h2 id="contact">Contactez-moi</h2>
-      <p id="contacter">Si vous souhaitez me contacter pour des questions ou autres, n'hésitez pas a me contacter.</p>
-      <button id="bouton-contact" onclick=window.location.href="Contact.html">Contacter-Moi</button>
-    </section>
+      <p id="contacter">
+        Si vous souhaitez me contacter pour des questions ou autres, n'hésitez
+        pas a me contacter.
+      </p>
+      <button
+        id="bouton-contact"
+        onclick="window.location.href='contact.html';"
+      >
+        Contacter-Moi
+      </button>
     </main>
-   
 
     <footer>
-
       <p>ⓒ 2024 - Mon Portfolio - Tout droit réservés.</p>
     </footer>
   </body>

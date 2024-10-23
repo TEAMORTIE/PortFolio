@@ -5,12 +5,15 @@
   --left: 3rem;
   --default: wheat;
   --taille: 75px;
+  --fond: url(https://st4.depositphotos.com/21149286/23042/i/450/depositphotos_230425778-stock-photo-stars-night-sky-background-texture.jpg);
 }
 body {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: var(--background-color);
+  background-image:var(--fond);
+  background-attachment: fixed;
+  background-position: 0px -500%;
   margin: 0;
   width: 100%;
   height: 100%;

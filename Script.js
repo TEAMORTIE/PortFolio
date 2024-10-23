@@ -5,14 +5,14 @@ document.addEventListener("DOMContentLoaded", function () {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         setTimeout(() => {
-          entry.target.classList.add("visible"); // Ajoute la classe 'visible' après 1 seconde
-        }, 500); // Délai de 1000 millisecondes (1 seconde)
-        observer.unobserve(entry.target); // Ne pas observer à nouveau après l'animation
+          entry.target.classList.add("visible");
+        }, 500);
+        observer.unobserve(entry.target);
       }
     });
   });
 
   sections.forEach((section) => {
-    observer.observe(section); // Observe chaque section
+    observer.observe(section);
   });
 });
